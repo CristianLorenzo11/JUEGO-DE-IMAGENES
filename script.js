@@ -12,8 +12,9 @@ let matchesFound = 0; // Contador de parejas encontradas
 const totalPairs = images.length / 2; // El número total de parejas
 let playerName = ''; // Variable para almacenar el nombre del jugador
 
-// Cargar el sonido de giro de la tarjeta
+// Cargar el sonido de giro de la tarjeta y la música de fondo
 const flipSound = new Audio('sonido.mp3'); 
+const backgroundMusic = document.getElementById('backgroundMusic'); // Asegúrate de que el elemento <audio> esté en el HTML
 
 // Barajar las imágenes
 function shuffle(array) {
@@ -128,6 +129,10 @@ document.getElementById('startGameButton').addEventListener('click', function() 
         playerName = inputName; // Almacenar el nombre del jugador
         const welcomeModal = document.getElementById('welcomeModal');
         welcomeModal.style.display = 'none'; // Cerrar el modal de bienvenida
+        
+        // Reproducir música de fondo
+        backgroundMusic.play(); // Iniciar la música de fondo
+
         createBoard(); // Crear el tablero de juego
     } else {
         alert("Por favor, ingresa tu nombre para comenzar a jugar.");
