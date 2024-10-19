@@ -58,7 +58,7 @@ background-color: transparent;
     font-size: 2rem; /* Tamaño de fuente ajustable */
     font-weight: bold; /* Negrita */
     text-align: center; /* Centrar el texto */
-    margin: 20px 0; /* Espaciado arriba y abajo */
+    margin: 10px 0; /* Espaciado arriba y abajo */
     letter-spacing: 2px; /* Espaciado entre letras para un efecto más atractivo */
     animation: glow 1s infinite alternate; /* Efecto de brillo */
 }
