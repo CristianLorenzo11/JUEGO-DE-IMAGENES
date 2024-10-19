@@ -146,6 +146,8 @@ button:hover {
 
     .modal-content {
         padding: 15px;
+        width: 90%;
+        height: 70%;
     }
 
     button {
@@ -177,7 +179,7 @@ button:hover {
 
 input[type="text"] {
     padding: 10px;
-    margin: 10px 0;
+    margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 80%;
@@ -187,7 +189,7 @@ input[type="text"] {
 .modal-image {
     width: 300px;
     height: 300px;
-    margin: 10px 0;
+
     display: block;
     margin-left: auto;
     margin-right: auto;

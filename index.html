@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuentra las Imágenes Repetidas</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo adicional para el pie de página */
+        footer {
+            text-align: center; /* Centrar el texto */
+        }
+        body {
+            display: flex;
+            flex-direction: column; /* Para que el pie de página se empuje hacia abajo */
+          
+        }
+    </style>
 </head>
 <body>
     <audio id="backgroundMusic" autoplay loop>
@@ -16,27 +27,28 @@
 
     <div id="welcomeModal" class="modal">
         <div class="modal-content">
-            
             <img src="mama.png" alt="Imagen del juego" class="modal-image" />
             <p>Para jugar, ingresa tu nombre:</p>
             <input type="text" id="playerName" placeholder="Ingresa tu nombre" />
             <button id="startGameButton">Comenzar Juego</button>
         </div>
-        
     </div>
     
     <div id="winModal" class="modal">
-        
         <div class="modal-content">
             <img src="felizdia.png" alt="Imagen del juego" class="modal-image" />
             <h2>Felíz Día Mamá</h2>
-            <h2>Son los Desos de <span class="highlight">SWEET RAMITOS</span></h2>
+            <h2>Son los Deseos de <span class="highlight">SWEET RAMITOS</span></h2>
             <br>
             <h2 id="winMessage"></h2>
-
             <button onclick="location.reload()">Jugar de nuevo</button>
         </div>
     </div>
+
+    <footer>
+        <p>&copy; 2024 <strong>Cristian Lorenzo</strong>. Todos los derechos reservados.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
