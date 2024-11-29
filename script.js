@@ -1,8 +1,8 @@
 const images = [
-    'image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg',
-    'image1.jpeg', 'image2.jpg', 'image3.jpg', 'image4.jpg',
-    'image5.jpg', 'image6.jpg', 'image7.jpg', 'image8.jpg',
-    'image5.jpg', 'image6.jpg', 'image7.jpg', 'image8.jpg',
+    'image1.jpeg', 'image2.jpeg', 'image3.jpeg', 'image4.jpeg',
+    'image1.jpeg', 'image2.jpeg', 'image3.jpeg', 'image4.jpeg',
+    'image5.jpeg', 'image6.jpeg', 'image7.jpeg', 'image8.jpeg',
+    'image5.jpeg', 'image6.jpeg', 'image7.jpeg', 'image8.jpeg',
 ];
 
 let firstCard = null;

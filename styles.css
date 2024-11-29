@@ -3,7 +3,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(black, blue);
+    background:  url('aaa.jpeg');
+background-size: cover;
+background-position: center;
     margin: 0;
     padding: 0;
     overflow: hidden; /* Evita que la página haga scroll */
@@ -192,7 +194,7 @@ button:hover {
 }
 
 .modal-content {
-    background: linear-gradient(red , violet
+    background: linear-gradient(rgb(90, 111, 233) , rgb(1, 14, 192)
 );
 
     padding: 20px;
